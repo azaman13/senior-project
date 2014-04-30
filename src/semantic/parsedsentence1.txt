@@ -1,0 +1,25 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ astrological) (NNS signs))
+      (PP (IN for)
+        (NP (NNP August))))
+    (VP (VBP are)
+      (NP
+        (NP
+          (NP (NNP Leo))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP July) (CD 24))
+            (, -)
+            (NP (NNP August) (CD 22))
+            (-RRB- -RRB-)))
+        (CC and)
+        (NP
+          (NP (NNP Virgo))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP August) (CD 23))
+            (, -)
+            (NP (NNP September) (CD 23))
+            (-RRB- -RRB-)))))
+    (. .)))
+

@@ -1,0 +1,16 @@
+(ROOT
+  (S
+    (NP
+      (NP (JJS Most) (NNS animals))
+      (PP (IN in)
+        (NP (DT the) (NNP Carnivora))))
+    (VP (VBP eat)
+      (NP
+        (NP (NN meat))
+        (, ,)
+        (SBAR (IN though)
+          (S
+            (NP (DT a) (JJ few))
+            (VP (VBP do) (RB not))))))
+    (. .)))
+

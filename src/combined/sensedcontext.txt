@@ -1,0 +1,10 @@
+!! -v 2.0 /home/aniszaman/seniorProject/ukb-2.0/bin/ukb_wsd --ppr -K /home/aniszaman/seniorProject/ukb-2.0/bin/wn30.bin -D /home/aniszaman/seniorProject/ukb-2.0/lkb_sources/30/wnet30_dict.txt /home/aniszaman/seniorProject/combined/carnivore/context.txt
+ctx_01 w1  00015388-n !! animal
+ctx_01 w1  01168468-v !! eat
+ctx_02 w1  05602835-n !! cheek
+ctx_02 w2  05282433-n !! teeth
+ctx_02 w1  01552519-v !! cut
+ctx_02 w2  02203362-v !! hold
+ctx_02 w3  02670890-v !! serve
+ctx_02 w4  01560369-v !! shear
+ctx_02 w5  00922867-v !! show

@@ -1,0 +1,408 @@
+removed that many lines  0
+removed that many lines  0
+{0: 10}
+THIS IS COMBINED---> on Carnivore
+=================Paragraphs were above======================================
+=================Paragraphs were above======================================
+=================Paragraphs were above======================================
+=================Paragraphs were above======================================
+=================Paragraphs were above======================================
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.320456114679
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.345667639377
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.214645980769
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.0419758132914
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.166933997814
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.162118708643
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.318133078987
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+A carnivore is an animal that eats mostly meat . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.146545316794
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.530557859484
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.414513906075
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.291297079734
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.267487378398
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.269457620972
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.241318925916
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.454740223012
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word Carnivora comes from Latin , where Carne means `` flesh `` or `` meat `` , and Vorare is a verb meaning `` eat `` , that is `` meat - eater `` . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.231498683605
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.472988504188
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.473325826399
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.362493045411
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.189573227844
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.312984959904
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.288208217709
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.454262114574
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Scavengers are carnivores that eat other animals which they did not kill themselves and which have been dead for a time . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.292859934256
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.479364880178
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.454919268808
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.320533041837
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.195598380215
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.281265059324
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.269598734943
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.433640869541
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only insects are called insectivores . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.252730497573
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.471215274925
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.435075894117
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.327602326388
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.212356902922
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.293376607619
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.263213707297
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.436001970165
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Carnivores that eat mainly or only fish are called piscivores . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.26111751095
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.772906809499
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.501095960551
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.323914811054
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.298703729101
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.312278346457
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.297785723681
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.502865210603
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+The word `` Carnivore `` also can mean any animal in the scientific order Carnivora . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.266399862545
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+Prehistoric mammals of the crown - clade Carnivoramorpha ( Carnivora and Miacoidea without Creodonta ) , along with the early order Creodonta , and some mammals of the even earlier order Cimolesta , were true carnivores . 
+Similarity Score ----->  0.447347750005
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+The earliest carnivorous mammal is considered { By whom | date = April 2011 } to be the Cimolestes that existed during the Late Cretaceous and Tertiary Periods in North America about 65 million years ago . 
+Similarity Score ----->  0.426799146459
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+Most species of Cimolestes were mouse to rat - sized , but the Late Cretaceous Cimolestes magnus reached the size of a marmot , making it one of the largest Mesozoic mammals known ( 20 - 60g ) . 
+Similarity Score ----->  0.252055310546
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+The cheek teeth combined the functions of piercing , shearing and grinding , and the molars of Palaeoryctes had extremely high and acute cusps that had little function other than piercing . 
+Similarity Score ----->  0.133858864314
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+The dentition of Cimolestes foreshadows the same cutting structures seen in all later carnivores . 
+Similarity Score ----->  0.217316780643
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+While the earlier smaller species were insectivores , the later marmot - sized Cimolestes magnus probably took larger prey and were definitely a carnivore to some degree . 
+Similarity Score ----->  0.222224175966
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+The cheek teeth of Hyracolestes ermineus ( an ermine - like shrew - 40g ) and Sarcodon pygmaeus ( `` pygmy flesh tooth `` - 75g ) , were common in the latest Paleocene of Mongolia and China and occupied the small predator niche . 
+Similarity Score ----->  0.379026151336
+><><><><><><><><><><><><><><><><><><><><><><
+ 
+><><><><><><><><><><><><><><><><><><><><><><
+Most animals in the Carnivora eat meat , though a few do not . 
+--------------------------------------------
+The cheek teeth show the same characteristic notches that serve in today ' s carnivores to hold flesh in place to shear apart with cutting ridges . 
+Similarity Score ----->  0.185707598691
+><><><><><><><><><><><><><><><><><><><><><><

@@ -1,0 +1,31 @@
+(ROOT
+  (S
+    (NP (DT The) (NN cheek) (NNS teeth))
+    (VP (VBP show)
+      (NP
+        (NP (DT the) (JJ same) (JJ characteristic) (NNS notches))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP serve)
+              (PP (IN in)
+                (NP
+                  (NP (NN today) (POS '))
+                  (JJ s) (NNS carnivores)))
+              (S
+                (VP (TO to)
+                  (VP (VB hold)
+                    (NP
+                      (NP (NN flesh))
+                      (PP (IN in)
+                        (NP (NN place))))
+                    (S
+                      (VP (TO to)
+                        (VP (VB shear)
+                          (PRT (RP apart))
+                          (PP (IN with)
+                            (S
+                              (VP (VBG cutting)
+                                (NP (NNS ridges))))))))))))))))
+    (. .)))
+

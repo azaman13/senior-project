@@ -1,0 +1,2 @@
+!! -v 2.0 /home/aniszaman/seniorProject/ukb-2.0/bin/ukb_wsd --ppr -K /home/aniszaman/seniorProject/ukb-2.0/bin/wn30.bin -D /home/aniszaman/seniorProject/ukb-2.0/lkb_sources/30/wnet30_dict.txt /home/aniszaman/seniorProject/semantic/august/context.txt
+ctx_01 w2  06791372-n !! sign

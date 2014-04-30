@@ -1,0 +1,232 @@
+
+{0: 37, 1: 37, 2: 37, 3: 27, 4: 6, 5: 13, 6: 14, 7: 29, 8: 17, 9: 37, 10: 12, 11: 12, 12: 27, 13: 37}
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.103279555899
+['Algebra', 'is', 'a', 'part', 'of', 'mathematics', '(', 'frequently', 'just', 'called', 'math', 'or', 'maths', ')', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.145521375022
+['It', 'is', 'used', 'to', 'find', 'values', 'and', 'variables', 'that', 'make', 'equations', 'and', 'inequalities', 'true', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.485714285714
+['It', 'often', 'needs', 'knowledge', 'of', 'the', 'rules', 'of', 'numbers', 'and', 'mathematics', 'operations', 'used', 'on', 'numbers', '(', 'adding', ',', 'subtracting', ',', 'multiplying', ',', 'dividing', ',', 'and', 'other', 'operations', ')', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.32
+['Algebra', 'uses', 'letters', '(', 'a', ',', 'b', ',', 'c', ',', '...', ')', 'and', 'other', 'symbols', 'to', 'represent', 'numbers', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.252982212813
+['The', 'letters', 'and', 'symbols', 'in', 'algebra', 'are', 'called', 'variables', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.404145188433
+['We', 'use', 'variables', 'because', 'the', 'numbers', 'are', 'unknown', 'or', 'can', 'change', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.0707106781187
+['Algebra', 'was', 'first', 'used', 'to', 'solve', 'equations', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.241209075662
+['Two', 'examples', 'are', 'linear', 'equations', 'and', 'quadratic', 'equations', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.346410161514
+['The', 'ways', 'developed', 'to', 'solve', 'equations', 'often', 'made', 'use', 'of', 'the', 'facts', 'of', 'the', 'parts', 'of', 'an', 'equation', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.106066017178
+['For', 'example', ',', 'how', 'to', 'factorize', 'polynomials', ',', 'or', 'how', 'to', 'use', 'a', 'matrix', 'to', 'solve', 'many', 'linear', 'equations', 'at', 'once', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.277350098113
+['Abstract', 'algebra', 'is', 'the', 'study', 'of', 'things', 'that', 'are', 'found', 'in', 'equations', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.226778683806
+['For', 'example', ',', 'polynomials', 'and', 'matrices', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.141421356237
+['These', 'things', 'are', 'known', 'as', 'algebraic', 'structures', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.2683281573
+['Understanding', 'the', 'properties', 'of', 'more', 'complex', 'algebraic', 'structures', 'can', 'help', 'us', 'solve', 'more', 'complex', 'equations', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.159586263406
+['Of', 'particular', 'importance', 'to', 'the', 'study', 'of', 'algebra', 'is', 'the', 'study', 'of', 'functions', ',', 'since', 'functions', 'often', 'appear', 'in', 'equations', 'that', 'we', 'are', 'trying', 'to', 'solve', '.']
+['Here', ',', 'the', 'identity', 'element', 'is', '1', ',', 'since', '1', '\xc3', '\x97', 'a', '=', 'a', '\xc3', '\x97', '1', '=', 'a', 'for', 'any', 'rational', 'number', 'a', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.416290723415
+['A', 'function', 'is', 'like', 'a', 'box', 'you', 'can', 'put', 'a', 'number', 'or', 'numbers', 'into', 'and', 'get', 'a', 'certain', 'number', 'out', '.']
+['The', 'inverse', 'of', 'a', 'is', '1', '/', 'a', ',', 'since', 'a', '\xc3', '\x97', '1', '/', 'a', '=', '1', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.373632358879
+['When', 'a', 'function', 'takes', 'one', 'variable', 'in', ',', 'like', 'f', '(', 'x', ')', ',', 'it', 'is', 'called', 'a', 'univariate', 'function', '.']
+['Here', ',', 'the', 'identity', 'element', 'is', '1', ',', 'since', '1', '\xc3', '\x97', 'a', '=', 'a', '\xc3', '\x97', '1', '=', 'a', 'for', 'any', 'rational', 'number', 'a', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.389833273642
+['When', 'a', 'function', 'takes', 'many', 'variables', 'in', ',', 'like', 'Q', '(', 'x', ',', 'y', ',', 'z', ')', ',', 'it', 'is', 'called', 'a', 'multivariate', 'function', '.']
+['Here', ',', 'the', 'identity', 'element', 'is', '1', ',', 'since', '1', '\xc3', '\x97', 'a', '=', 'a', '\xc3', '\x97', '1', '=', 'a', 'for', 'any', 'rational', 'number', 'a', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.315789473684
+['The', 'study', 'of', 'algebra', 'is', 'heavily', 'concerned', 'with', 'the', 'subject', 'of', 'graphing', 'functions', ',', 'as', 'graphs', 'can', 'be', 'powerful', 'tools', 'in', 'helping', 'us', 'to', 'study', 'the', 'solutions', 'to', 'equations', '.']
+['Although', 'Diophantus', 'and', 'the', 'Babylonians', 'used', 'mostly', 'special', 'ad', 'hoc', 'methods', 'to', 'solve', 'equations', ',', 'Al', '-', 'Khwarizmi', 'was', 'the', 'first', 'to', 'solve', 'equations', 'using', 'general', 'methods', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.242535625036
+['In', 'some', 'math', 'problems', 'one', 'variable', 'is', 'changed', '.']
+['A', 'polynomial', 'is', 'an', 'expression', 'that', 'is', 'constructed', 'from', 'one', 'or', 'more', 'variables', 'and', 'constants', ',', 'using', 'only', 'the', 'operations', 'of', 'addition', ',', 'subtraction', ',', 'and', 'multiplication', '(', 'where', 'repeated', 'multiplication', 'of', 'the', 'same', 'variable', 'is', 'conventionally', 'denoted', 'as', 'exponentiation', 'with', 'a', 'constant', 'nonnegative', 'integer', 'exponent', ')', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.333848930445
+['The', 'variable', 'that', 'is', 'changed', 'is', 'called', 'the', '``', 'independent', '``', 'variable', '.']
+['A', 'polynomial', 'is', 'an', 'expression', 'that', 'is', 'constructed', 'from', 'one', 'or', 'more', 'variables', 'and', 'constants', ',', 'using', 'only', 'the', 'operations', 'of', 'addition', ',', 'subtraction', ',', 'and', 'multiplication', '(', 'where', 'repeated', 'multiplication', 'of', 'the', 'same', 'variable', 'is', 'conventionally', 'denoted', 'as', 'exponentiation', 'with', 'a', 'constant', 'nonnegative', 'integer', 'exponent', ')', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.38490017946
+['After', 'the', 'variable', 'is', 'changed', 'the', 'math', 'operations', 'in', 'the', 'equation', 'are', 'performed', 'to', 'make', 'a', 'number', '.']
+['For', 'example', ',', 'x2', '+', '2x', '\xe2', '\x88\x92', '3', 'is', 'a', 'polynomial', 'in', 'the', 'single', 'variable', 'x', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.323529411765
+['The', 'number', 'that', 'is', 'made', 'is', 'called', 'the', '``', 'dependent', '``', 'variable', '.']
+['A', 'polynomial', 'is', 'an', 'expression', 'that', 'is', 'constructed', 'from', 'one', 'or', 'more', 'variables', 'and', 'constants', ',', 'using', 'only', 'the', 'operations', 'of', 'addition', ',', 'subtraction', ',', 'and', 'multiplication', '(', 'where', 'repeated', 'multiplication', 'of', 'the', 'same', 'variable', 'is', 'conventionally', 'denoted', 'as', 'exponentiation', 'with', 'a', 'constant', 'nonnegative', 'integer', 'exponent', ')', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.476289672208
+['Most', 'of', 'the', 'time', 'the', 'independent', 'variable', 'is', 'written', 'as', 'x', 'and', 'the', 'dependent', 'variable', 'is', 'written', 'as', 'y', ',', 'for', 'example', ',', 'in', 'y', '=', '3x', '+', '1', '.']
+['For', 'example', ',', 'x2', '+', '2x', '\xe2', '\x88\x92', '3', 'is', 'a', 'polynomial', 'in', 'the', 'single', 'variable', 'x', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.108465228909
+['This', 'is', 'because', 'we', 'do', 'not', 'know', 'what', 'number', 'they', 'are', 'until', 'we', 'are', 'told', '.']
+['A', 'polynomial', 'is', 'an', 'expression', 'that', 'is', 'constructed', 'from', 'one', 'or', 'more', 'variables', 'and', 'constants', ',', 'using', 'only', 'the', 'operations', 'of', 'addition', ',', 'subtraction', ',', 'and', 'multiplication', '(', 'where', 'repeated', 'multiplication', 'of', 'the', 'same', 'variable', 'is', 'conventionally', 'denoted', 'as', 'exponentiation', 'with', 'a', 'constant', 'nonnegative', 'integer', 'exponent', ')', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.154303349962
+['Many', 'math', 'problems', 'are', 'about', 'physics', '.']
+['A', 'related', 'class', 'of', 'problems', 'is', 'finding', 'algebraic', 'expressions', 'for', 'the', 'roots', 'of', 'a', 'polynomial', 'in', 'a', 'single', 'variable', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.492365963917
+['In', 'many', 'of', 'these', 'physics', 'problems', 'time', 'is', 'a', 'variable', '.']
+['A', 'related', 'class', 'of', 'problems', 'is', 'finding', 'algebraic', 'expressions', 'for', 'the', 'roots', 'of', 'a', 'polynomial', 'in', 'a', 'single', 'variable', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.212132034356
+['Time', 'is', 'written', 't', '.']
+['An', 'important', 'class', 'of', 'problems', 'in', 'algebra', 'is', 'factorization', 'of', 'polynomials', ',', 'that', 'is', ',', 'expressing', 'a', 'given', 'polynomial', 'as', 'a', 'product', 'of', 'other', 'polynomials', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.240192230708
+['Using', 'the', 'basic', 'ideas', 'in', 'algebra', 'can', 'help', 'reduce', 'a', 'math', 'problem', 'to', 'its', 'simplest', 'form', 'making', 'it', 'easier', 'to', 'solve', 'difficult', 'problems', '.']
+['A', 'related', 'class', 'of', 'problems', 'is', 'finding', 'algebraic', 'expressions', 'for', 'the', 'roots', 'of', 'a', 'polynomial', 'in', 'a', 'single', 'variable', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.310529501704
+['Algebra', 'is', 'taught', 'in', 'school', 'to', 'help', 'in', 'harder', 'mathematics', ',', 'science', ',', 'and', 'engineering', 'classes', '.']
+['An', 'important', 'class', 'of', 'problems', 'in', 'algebra', 'is', 'factorization', 'of', 'polynomials', ',', 'that', 'is', ',', 'expressing', 'a', 'given', 'polynomial', 'as', 'a', 'product', 'of', 'other', 'polynomials', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.102062072616
+['This', 'problem', 'could', 'be', 'solved', 'without', 'algebra', '.']
+['The', 'theory', 'of', 'groups', 'is', 'studied', 'in', 'group', 'theory', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.319197105959
+['The', 'purpose', 'of', 'simple', 'story', 'problems', 'such', 'as', 'this', 'one', 'is', 'to', 'teach', 'algebra', '.']
+['A', 'major', 'result', 'in', 'this', 'theory', 'is', 'the', 'classification', 'of', 'finite', 'simple', 'groups', ',', 'mostly', 'published', 'between', 'about', '1955', 'and', '1983', ',', 'which', 'is', 'thought', 'to', 'classify', 'all', 'of', 'the', 'finite', 'simple', 'groups', 'into', 'roughly', '30', 'basic', 'types', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.329719857132
+['Once', 'a', 'student', 'is', 'comfortable', 'with', 'simple', 'problems', 'like', 'this', ',', 'it', 'is', 'easier', 'to', 'try', 'harder', 'ones', '.']
+['A', 'major', 'result', 'in', 'this', 'theory', 'is', 'the', 'classification', 'of', 'finite', 'simple', 'groups', ',', 'mostly', 'published', 'between', 'about', '1955', 'and', '1983', ',', 'which', 'is', 'thought', 'to', 'classify', 'all', 'of', 'the', 'finite', 'simple', 'groups', 'into', 'roughly', '30', 'basic', 'types', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.22913326005
+['With', 'practice', ',', 'the', 'students', 'can', 'use', 'algebra', 'when', 'faced', 'with', 'a', 'problem', 'that', 'is', 'too', 'hard', 'to', 'solve', 'any', 'other', 'way', '.']
+['A', 'major', 'result', 'in', 'this', 'theory', 'is', 'the', 'classification', 'of', 'finite', 'simple', 'groups', ',', 'mostly', 'published', 'between', 'about', '1955', 'and', '1983', ',', 'which', 'is', 'thought', 'to', 'classify', 'all', 'of', 'the', 'finite', 'simple', 'groups', 'into', 'roughly', '30', 'basic', 'types', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.197365484597
+['Problems', 'such', 'as', 'building', 'a', 'freeway', ',', 'designing', 'a', 'cell', 'phone', ',', 'or', 'finding', 'the', 'cure', 'for', 'a', 'disease', 'all', 'require', 'algebra', '.']
+['A', 'major', 'result', 'in', 'this', 'theory', 'is', 'the', 'classification', 'of', 'finite', 'simple', 'groups', ',', 'mostly', 'published', 'between', 'about', '1955', 'and', '1983', ',', 'which', 'is', 'thought', 'to', 'classify', 'all', 'of', 'the', 'finite', 'simple', 'groups', 'into', 'roughly', '30', 'basic', 'types', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.394211233695
+['In', 'addition', 'to', '``', 'elementary', 'algebra', '``', ',', 'or', 'basic', 'algebra', ',', 'there', 'are', 'advanced', 'forms', 'of', 'algebra', ',', 'taught', 'in', 'colleges', 'and', 'universities', ',', 'such', 'as', 'abstract', 'algebra', ',', 'linear', 'algebra', ',', 'and', 'universal', 'algebra', '.']
+['Abstract', 'algebra', 'extends', 'the', 'familiar', 'concepts', 'found', 'in', 'elementary', 'algebra', 'and', 'arithmetic', 'of', 'numbers', 'to', 'more', 'general', 'concepts', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.296721213028
+['With', 'abstract', 'algebra', 'and', 'universal', 'algebra', ',', 'it', 'is', 'hard', 'to', 'see', 'how', 'studying', 'them', 'helps', 'solve', 'problems', ',', 'but', 'with', 'linear', 'algebra', 'it', 'is', 'much', 'clearer', '.']
+['Abstract', 'algebra', 'extends', 'the', 'familiar', 'concepts', 'found', 'in', 'elementary', 'algebra', 'and', 'arithmetic', 'of', 'numbers', 'to', 'more', 'general', 'concepts', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.404145188433
+['Algebra', 'can', 'be', 'used', 'to', 'solve', 'real', 'problems', 'because', 'the', 'rules', 'of', 'algebra', 'work', 'in', 'real', 'life', 'and', 'numbers', 'can', 'be', 'used', 'to', 'represent', 'the', 'values', 'of', 'real', 'things', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.507972158967
+['In', 'algebra', ',', 'adding', 'z', 'to', 'y', '(', 'or', 'y', 'plus', 'z', ')', 'is', 'written', 'as', 'y', '+', 'z', '.']
+['In', 'algebra', ',', 'numbers', 'are', 'often', 'denoted', 'by', 'symbols', '(', 'such', 'as', 'a', ',', 'n', ',', 'x', ',', 'y', 'or', 'z', ')', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.339467369917
+['Subtracting', 'z', 'from', 'y', '(', 'or', 'y', 'minus', 'z', ')', 'is', 'written', 'as', 'y', '\xe2', '\x88\x92', 'z', '.']
+['In', 'algebra', ',', 'numbers', 'are', 'often', 'denoted', 'by', 'symbols', '(', 'such', 'as', 'a', ',', 'n', ',', 'x', ',', 'y', 'or', 'z', ')', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.615989049181
+['In', 'algebra', ',', 'multiplying', 'y', 'by', 'z', '(', 'or', 'y', 'times', 'z', ')', 'can', 'be', 'written', 'in', '4', 'ways', ':', 'y', '\xc3', '\x97', 'z', ',', 'y', '*', 'z', ',', 'y\xc2', '\xb7', 'z', ',', 'or', 'yz', '.']
+['In', 'algebra', ',', 'numbers', 'are', 'often', 'denoted', 'by', 'symbols', '(', 'such', 'as', 'a', ',', 'n', ',', 'x', ',', 'y', 'or', 'z', ')', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.460455460136
+['When', 'we', 'multiply', 'a', 'number', 'and', 'a', 'letter', 'in', 'algebra', ',', 'we', 'write', 'the', 'number', 'in', 'front', 'of', 'the', 'letter', ':', '5', '\xc3', '\x97', 'y', '=', '5y', '.']
+['Here', ',', 'the', 'identity', 'element', 'is', '1', ',', 'since', '1', '\xc3', '\x97', 'a', '=', 'a', '\xc3', '\x97', '1', '=', 'a', 'for', 'any', 'rational', 'number', 'a', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.513819996702
+['When', 'the', 'number', 'is', '1', ',', 'then', 'the', '1', 'is', 'not', 'written', 'because', '1', 'times', 'any', 'number', 'is', 'that', 'number', '(', '1', '\xc3', '\x97', 'y', '=', 'y', ')', 'and', 'so', 'is', 'not', 'needed', '.']
+['Here', ',', 'the', 'identity', 'element', 'is', '1', ',', 'since', '1', '\xc3', '\x97', 'a', '=', 'a', '\xc3', '\x97', '1', '=', 'a', 'for', 'any', 'rational', 'number', 'a', '.']
+**********************************
+PARAGRAPH
+##################################
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.211603684758
+['The', 'word', '``', 'algebra', '``', 'is', 'a', 'Latin', 'form', 'of', 'the', 'Arabic', 'word', 'Al', '-', 'Jabr', '(', '``', 'casting', '``', ')', 'and', 'comes', 'from', 'a', 'mathematics', 'book', 'Al', '-', 'Maqala', 'fi', 'Hisab', '-', 'al', 'Jabr', 'wa', '-', 'al', '-', 'Muqabilah', ',', '(', '``', 'Essay', 'on', 'the', 'Computation', 'of', 'Casting', 'and', 'Equation', '``', ')', 'written', 'in', 'the', '9th', 'century', 'by', 'a', 'famous', 'Persian', 'mathematician', ',', 'Muhammad', 'ibn', 'M\xc5', '\xab', 's\xc4', '\x81', 'al', '-', 'Khw\xc4', '\x81', 'rizm\xc4', '\xab', ',', 'who', 'was', 'a', 'Muslim', 'born', 'in', 'Khwarizm', 'in', 'Uzbekistan', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.146059348668
+['He', 'flourished', 'under', 'Al', '-', 'Ma', "'", 'moun', 'in', 'Baghdad', ',', 'Iraq', 'through', '813', '-', '833', 'CE', ',', 'and', 'died', 'around', '840', 'CE', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.242535625036
+['The', 'book', 'was', 'brought', 'into', 'Europe', 'and', 'translated', 'into', 'Latin', 'in', 'the', '12th', 'century', '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']
+<><><><<><><><><><><<><><<><>><><
+similarity= 0.22188007849
+['The', 'book', 'was', 'then', 'given', 'the', 'name', "'", 'Algebra', "'", '.']
+['The', 'rational', 'numbers', ',', 'the', 'real', 'numbers', 'and', 'the', 'complex', 'numbers', 'are', 'all', 'examples', 'of', 'fields', '.']

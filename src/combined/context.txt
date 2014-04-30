@@ -1,0 +1,4 @@
+ctx_01
+animal#n#w1#1 Carnivora#n#w2#1 eat#v#w1#1 
+ctx_02
+cheek#n#w1#1 teeth#n#w2#1 cut#v#w1#1 hold#v#w2#1 serve#v#w3#1 shear#v#w4#1 show#v#w5#1 

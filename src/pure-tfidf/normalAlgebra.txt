@@ -1,0 +1,93 @@
+Algebra (from Arabic al-jebr meaning "reunion of broken parts") is the branch of mathematics concerning the study of the rules of operations and relations, and the constructions and concepts arising from them, including terms,  polynomials, equations and algebraic structures.  Together with geometry, analysis, topology, combinatorics, and  number theory, algebra is one of the main branches of pure mathematics.  Algebra has numerous usages in daily life and is commonly taught in public schools.
+
+Elementary algebra, often part of the curriculum in secondary education, introduces the concept of variables representing numbers.  Statements based on these variables are manipulated using the rules of operations that apply to numbers, such as addition.  This can be done for a variety of reasons, including equation solving. Algebra is much broader than elementary algebra and studies what happens when different rules of operations are used and when operations are devised for things other than numbers.  Addition and  multiplication can be generalized and their precise definitions lead to structures such as groups, rings and fields, studied in the area of mathematics called abstract algebra.
+
+The Greek mathematician Diophantus has traditionally been known as the "father of algebra", but in more recent times there is much debate over whether Muhammad ibn Musa al-Khwarizmi deserves that title instead.
+
+== History ==
+
+The roots of algebra can be traced to the ancient Babylonians,who developed an advanced arithmetical system with which they were able to do calculations in an algorithmic fashion. The Babylonians developed formulas to calculate solutions for problems typically solved today by using linear equations, quadratic equations, and indeterminate linear equations. By contrast, most Egyptians of this era, as well as Greek and Chinese mathematics in the 1st millennium BC, usually solved such equations by geometric methods, such as those described in the Rhind Mathematical Papyrus, Euclid's Elements, and The Nine Chapters on the Mathematical Art.  The geometric work of the Greeks, typified in the Elements, provided the framework for generalizing formulae beyond the solution of particular problems into more general systems of stating and solving equations, though this would not be realized until the medieval Muslim mathematicians.{Citation needed|date=January 2012}
+
+By the time of Plato, Greek mathematics had undergone a drastic change. The Greeks created a geometric algebra where terms were represented by sides of geometric objects, usually lines, that had letters associated with them. Diophantus (3rd century AD), sometimes called "the father of algebra", was an Alexandrian Greek mathematician and the author of a series of books called Arithmetica. These texts deal with solving algebraic equations.
+
+The word algebra comes from the Arabic language (الجبر al-jabr "restoration") and much of its methods from Arabic/Islamic mathematics. Earlier traditions discussed above had a direct influence on Muhammad ibn Mūsā al-Khwārizmī (c. 780–850). He later wrote The Compendious Book on Calculation by Completion and Balancing, which established algebra as a mathematical discipline that is independent of geometry and arithmetic.
+
+The Hellenistic mathematicians Hero of Alexandria and Diophantus  as well as Indian mathematicians such as Brahmagupta continued the traditions of Egypt and Babylon, though Diophantus' Arithmetica and Brahmagupta's Brahmasphutasiddhanta are on a higher level. For example, the first complete arithmetic solution (including zero and negative solutions) to quadratic equations was described by Brahmagupta in his book Brahmasphutasiddhanta.  Later, Arabic and Muslim mathematicians developed algebraic methods to a much higher degree of sophistication.  Although Diophantus and the Babylonians used mostly special ad hoc methods to solve equations, Al-Khwarizmi was the first to solve equations using general methods.  He solved the linear indeterminate equations, quadratic equations, second order indeterminate equations and equations with multiple variables.{Citation needed|date=January 2012}
+
+The Greek mathematician Diophantus has traditionally been known as the "father of algebra" but in more recent times there is much debate over whether al-Khwarizmi, who founded the discipline of al-jabr, deserves that title instead. Those who support Diophantus point to the fact that the algebra found in Al-Jabr is slightly more elementary than the algebra found in Arithmetica and that Arithmetica is syncopated while Al-Jabr is fully rhetorical. Those who support Al-Khwarizmi point to the fact that he introduced the methods of "reduction" and "balancing" (the transposition of subtracted terms to the other side of an equation, that is, the cancellation of like terms on opposite sides of the equation) which the term al-jabr originally referred to, and that he gave an exhaustive explanation of solving quadratic equations, supported by geometric proofs, while treating algebra as an independent discipline in its own right. His algebra was also no longer concerned "with a series of problems to be resolved, but an exposition which starts with primitive terms in which the combinations must give all possible prototypes for equations, which henceforward explicitly constitute the true object of study". He also studied an equation for its own sake and "in a generic manner, insofar as it does not simply emerge in the course of solving a problem, but is specifically called on to define an infinite class of problems".
+
+The Persian mathematician Omar Khayyam is credited with identifying the foundations of algebraic geometry and found the general geometric solution of the cubic equation. Another Persian mathematician, Sharaf al-Dīn al-Tūsī, found algebraic and numerical solutions to various cases of cubic equations. He also developed the concept of a function. The Indian mathematicians Mahavira and Bhaskara II, the Persian mathematician Al-Karaji, and the Chinese mathematician Zhu Shijie, solved various cases of cubic, quartic, quintic and higher-order polynomial equations using numerical methods. In the 13th century, the solution of a cubic equation by Fibonacci is representative of the beginning of a revival in European algebra. As the Islamic world was declining, the European world was ascending. And it is here that algebra was further developed.
+
+François Viète’s work at the close of the 16th century marks the start of the classical discipline of algebra. In 1637, René Descartes published La Géométrie, inventing analytic geometry and introducing modern algebraic notation. Another key event in the further development of algebra was the general algebraic solution of the cubic and quartic equations, developed in the mid-16th century. The idea of a determinant was developed by Japanese mathematician Kowa Seki in the 17th century, followed independently by Gottfried Leibniz ten years later, for the purpose of solving systems of simultaneous linear equations using matrices. Gabriel Cramer also did some work on matrices and determinants in the 18th century. Permutations were studied by Joseph Lagrange in his 1770 paper Réflexions sur la résolution algébrique des équations devoted to solutions of algebraic equations, in which he introduced Lagrange resolvents. Paolo Ruffini was the first person to develop the theory of permutation groups, and like his predecessors, also in the context of solving algebraic equations.
+
+Abstract algebra was developed in the 19th century, initially focusing on what is now called Galois theory, and on constructibility issues. The "modern algebra" has deep nineteenth-century roots in the work, for example, of Richard Dedekind and Leopold Kronecker and profound interconnections with other branches of mathematics such as algebraic number theory and algebraic geometry. George Peacock was the founder of axiomatic thinking in arithmetic and algebra. Augustus De Morgan discovered relation algebra in his Syllabus of a Proposed System of Logic. Josiah Willard Gibbs developed an algebra of vectors in three-dimensional space, and Arthur Cayley developed an algebra of matrices (this is a noncommutative algebra).
+
+== Classification ==
+
+In some directions of advanced study, axiomatic algebraic systems such as groups, rings, fields, and algebras over a field are investigated in the presence of a geometric structure (a metric or a topology) which is compatible with the algebraic structure. The list includes a number of areas of functional analysis: 
+
+== Elementary algebra ==
+
+Elementary algebra is the most basic form of algebra. It is taught to students who are presumed to have no knowledge of mathematics beyond the basic principles of arithmetic. In arithmetic, only numbers and their arithmetical operations (such as +, −, ×, ÷) occur. In algebra, numbers are often denoted by symbols (such as a, n, x, y or z). This is useful because:
+
+=== Polynomials ===
+
+A polynomial is an expression that is constructed from one or more variables and constants, using only the operations of addition, subtraction, and multiplication (where repeated multiplication of the same variable is conventionally denoted as exponentiation with a constant nonnegative integer exponent). For example, x2 + 2x − 3 is a polynomial in the single variable x.
+
+An important class of problems in algebra is factorization of polynomials, that is, expressing a given polynomial as a product of other polynomials. The example polynomial above can be factored as (x − 1)(x + 3). A related class of problems is finding algebraic expressions for the roots of a polynomial in a single variable.
+
+===Teaching algebra===
+
+It has been suggested that elementary algebra should be taught as young as eleven years old, though in recent years it is more common for public lessons to begin at the eighth grade level (≈13 y.o.±) in the United States.
+
+Since 1997, Virginia Tech and some other universities have begun using a personalized model of teaching algebra that combines instant feedback from specialized computer software with one-on-one and small group tutoring, which has reduced costs and increased student achievement.
+
+== Abstract algebra ==
+
+Abstract algebra extends the familiar concepts found in elementary algebra and arithmetic of numbers to more general concepts.
+
+Sets: Rather than just considering the different types of numbers, abstract algebra deals with the more general concept of sets: a collection of all objects (called elements) selected by property, specific for the set. All collections of the familiar types of numbers are sets. Other examples of sets include the set of all two-by-two matrices, the set of all second-degree polynomials (ax2 + bx + c), the set of all two dimensional vectors in the plane, and the various finite groups such as the cyclic groups which are the group of integers modulo n. Set theory is a branch of logic and not technically a branch of algebra.
+
+Binary operations: The notion of addition (+) is abstracted to give a binary operation, ∗ say. The notion of binary operation is meaningless without the set on which the operation is defined. For two elements a and b in a set S, a ∗ b is another element in the set; this condition is called closure. Addition (+), subtraction (-), multiplication (×), and division (÷) can be binary operations when defined on different sets, as is addition and multiplication of matrices, vectors, and polynomials.
+
+Identity elements: The numbers zero and one are abstracted to give the notion of an identity element for an operation. Zero is the identity element for addition and one is the identity element for multiplication. For a general binary operator ∗ the identity element e must satisfy a ∗ e = a and e ∗ a = a. This holds for addition as a + 0 = a and 0 + a = a and multiplication a × 1 = a and 1 × a = a. Not all set and operator combinations have an identity element; for example, the positive natural numbers (1, 2, 3, ...) have no identity element for addition.
+
+Inverse elements: The negative numbers give rise to the concept of inverse elements. For addition, the inverse of a is written −a, and for multiplication the inverse is written a−1. A general two-sided inverse element a−1 satisfies the property that a ∗ a−1 = 1 and a−1 ∗ a = 1 .
+
+Associativity: Addition of integers has a property called associativity. That is, the grouping of the numbers to be added does not affect the sum. For example: 1=(2 + 3) + 4 = 2 + (3 + 4). In general, this becomes (a ∗ b) ∗ c = a ∗ (b ∗ c). This property is shared by most binary operations, but not subtraction or division or octonion multiplication.
+
+Commutativity: Addition and multiplication of real numbers are both commutative. That is, the order of the numbers does not affect the result. For example: 2 + 3 = 3 + 2. In general, this becomes a ∗ b = b ∗ a. This property does not hold for all binary operations.  For example, matrix multiplication and quaternion multiplication are both non-commutative.
+
+=== Groups ===
+
+Combining the above concepts gives one of the most important structures in mathematics: a group. A group is a combination of a set S and a single binary operation ∗, defined in any way you choose, but with the following properties:
+
+If a group is also commutative—that is, for any two members a and b of S, a ∗ b is identical to b ∗ a—then the group is said to be abelian.
+
+For example, the set of integers under the operation of addition is a group. In this group, the identity element is 0 and the inverse of any element a is its negation, −a. The associativity requirement is met, because for any integers a, b and c, (a + b) + c = a + (b + c)
+
+The nonzero rational numbers form a group under multiplication. Here, the identity element is 1, since 1 × a = a × 1 = a for any rational number a. The inverse of a is 1/a, since a × 1/a = 1.
+
+The integers under the multiplication operation, however, do not form a group. This is because, in general, the multiplicative inverse of an integer is not an integer. For example, 4 is an integer, but its multiplicative inverse is ¼, which is not an integer.
+
+The theory of groups is studied in group theory. A major result in this theory is the classification of finite simple groups, mostly published between about 1955 and 1983, which is thought to classify all of the finite simple groups into roughly 30 basic types.
+
+Semigroups, quasigroups, and monoids are structures similar to groups, but more general. They comprise a set and a closed binary operation, but do not necessarily satisfy the other conditions. A semigroup has an associative binary operation, but might not have an identity element. A monoid is a semigroup which does have an identity but might not have an inverse for every element. A quasigroup satisfies a requirement that any element can be turned into any other by a unique pre- or post-operation; however the binary operation might not be associative.
+
+All groups are monoids, and all monoids are semigroups.
+
+=== Rings and fields ===
+
+Groups just have one binary operation.  To fully explain the behaviour of the different types of numbers, structures with two operators need to be studied. The most important of these are rings, and fields.
+
+A ring has two binary operations (+) and (×), with × distributive over +. Under the first operator (+) it forms an abelian group. Under the second operator (×) it is associative, but it does not need to have identity, or inverse, so division is not required. The additive (+) identity element is written as 0 and the additive inverse of a is written as −a.
+
+Distributivity generalises the distributive law for numbers, and specifies the order in which the operators should be applied, (called  the precedence). For the integers 1=(a + b) × c = a × c + b × c and 1=c × (a + b) = c × a + c × b, and × is said to be distributive over +.
+
+The integers are an example of a ring. The integers have additional properties which make it an integral domain.
+
+A field is a ring with the additional property that all the elements excluding 0 form an abelian group under ×. The multiplicative (×) identity is written as 1 and the multiplicative inverse of a is written as a−1.
+
+The rational numbers, the real numbers and the complex numbers are all examples of fields.
+
+The word algebra is also used for various algebraic structures:

@@ -1,0 +1,117 @@
+16
+47
+removed that many lines  2
+removed that many lines  8
+
+
+The 37 th para from normal matches with the 0 th para from simple, with dot product =  0.0459581003867 with shared words  ['numbers', 'used']
+SIMPLE 
+Algebra is a part of mathematics ( frequently just called math or maths ). It is used to find values and variables that make equations and inequalities true . It often needs knowledge of the rules of numbers and mathematics operations used on numbers ( adding , subtracting , multiplying , dividing , and other operations ). Algebra uses letters ( a , b , c ,...) and other symbols to represent numbers . The letters and symbols in algebra are called variables . We use variables because the numbers are unknown or can change .  
+
+NORMAL 
+The rational numbers , the real numbers and the complex numbers are all examples of fields . 
+
+
+The 37 th para from normal matches with the 1 th para from simple, with dot product =  0.17238981789 with shared words  ['examples', 'used', 'structures', 'complex', 'algebraic']
+SIMPLE 
+Algebra was first used to solve equations . Two examples are linear equations and quadratic equations .  
+
+NORMAL 
+The rational numbers , the real numbers and the complex numbers are all examples of fields . 
+
+
+The 37 th para from normal matches with the 2 th para from simple, with dot product =  0.068103156191 with shared words  ['structures', 'complex', 'algebraic']
+SIMPLE 
+The ways developed to solve equations often made use of the facts of the parts of an equation . For example , how to factorize polynomials , or how to use a matrix to solve many linear equations at once . Abstract algebra is the study of things that are found in equations . For example , polynomials and matrices . These things are known as algebraic structures . Understanding the properties of more complex algebraic structures can help us solve more complex equations .  
+
+NORMAL 
+The rational numbers , the real numbers and the complex numbers are all examples of fields . 
+
+
+The 27 th para from normal matches with the 3 th para from simple, with dot product =  0.0118705894692 with shared words  ['number', 'since']
+SIMPLE 
+Of particular importance to the study of algebra is the study of functions , since functions often appear in equations that we are trying to solve . A function is like a box you can put a number or numbers into and get a certain number out . When a function takes one variable in , like f ( x ), it is called a univariate function . When a function takes many variables in , like Q ( x , y , z ), it is called a multivariate function .  
+
+NORMAL 
+The nonzero rational numbers form a group under multiplication . Here , the identity element is 1 , since 1 √ ó a = a √ ó 1 = a for any rational number a . The inverse of a is 1 / a , since a √ ó 1 / a = 1 . 
+
+
+The 6 th para from normal matches with the 4 th para from simple, with dot product =  0.00658144143189 with shared words  ['equations']
+SIMPLE 
+The study of algebra is heavily concerned with the subject of graphing functions , as graphs can be powerful tools in helping us to study the solutions to equations .  
+
+NORMAL 
+The Hellenistic mathematicians Hero of Alexandria and Diophantus as well as Indian mathematicians such as Brahmagupta continued the traditions of Egypt and Babylon , though Diophantus ' Arithmetica and Brahmagupta ' s Brahmasphutasiddhanta are on a higher level . For example , the first complete arithmetic solution ( including zero and negative solutions ) to quadratic equations was described by Brahmagupta in his book Brahmasphutasiddhanta . Later , Arabic and Muslim mathematicians developed algebraic methods to a much higher degree of sophistication . Although Diophantus and the Babylonians used mostly special ad hoc methods to solve equations , Al - Khwarizmi was the first to solve equations using general methods . He solved the linear indeterminate equations , quadratic equations , second order indeterminate equations and equations with multiple variables . { Citation needed | date = January 2012 } 
+
+
+The 13 th para from normal matches with the 5 th para from simple, with dot product =  0.0229608040367 with shared words  ['variable']
+SIMPLE 
+In some math problems one variable is changed . The variable that is changed is called the " independent " variable . After the variable is changed the math operations in the equation are performed to make a number . The number that is made is called the " dependent " variable . Most of the time the independent variable is written as x and the dependent variable is written as y , for example , in y = 3x + 1 . This is because we do not know what number they are until we are told .  
+
+NORMAL 
+A polynomial is an expression that is constructed from one or more variables and constants , using only the operations of addition , subtraction , and multiplication ( where repeated multiplication of the same variable is conventionally denoted as exponentiation with a constant nonnegative integer exponent ). For example , x2 + 2x ‚ àí 3 is a polynomial in the single variable x . 
+
+
+The 14 th para from normal matches with the 6 th para from simple, with dot product =  0.00838387829378 with shared words  ['problems']
+SIMPLE 
+Many math problems are about physics . In many of these physics problems time is a variable . Time is written t . Using the basic ideas in algebra can help reduce a math problem to its simplest form making it easier to solve difficult problems . Algebra is taught in school to help in harder mathematics , science , and engineering classes .  
+
+NORMAL 
+An important class of problems in algebra is factorization of polynomials , that is , expressing a given polynomial as a product of other polynomials . The example polynomial above can be factored as ( x ‚ àí 1 )( x + 3 ). A related class of problems is finding algebraic expressions for the roots of a polynomial in a single variable . 
+
+
+The 29 th para from normal matches with the 7 th para from simple, with dot product =  0.02158113664 with shared words  ['simple']
+SIMPLE 
+This problem could be solved without algebra . The purpose of simple story problems such as this one is to teach algebra . Once a student is comfortable with simple problems like this , it is easier to try harder ones . With practice , the students can use algebra when faced with a problem that is too hard to solve any other way . Problems such as building a freeway , designing a cell phone , or finding the cure for a disease all require algebra .  
+
+NORMAL 
+The theory of groups is studied in group theory . A major result in this theory is the classification of finite simple groups , mostly published between about 1955 and 1983 , which is thought to classify all of the finite simple groups into roughly 30 basic types . 
+
+
+The 17 th para from normal matches with the 8 th para from simple, with dot product =  0.011007030989 with shared words  ['elementary']
+SIMPLE 
+In addition to " elementary algebra ", or basic algebra , there are advanced forms of algebra , taught in colleges and universities , such as abstract algebra , linear algebra , and universal algebra . With abstract algebra and universal algebra , it is hard to see how studying them helps solve problems , but with linear algebra it is much clearer .  
+
+NORMAL 
+Abstract algebra extends the familiar concepts found in elementary algebra and arithmetic of numbers to more general concepts . 
+
+
+The 37 th para from normal matches with the 9 th para from simple, with dot product =  0.179867239566 with shared words  ['real', 'used', 'numbers', 'algebra']
+SIMPLE 
+Algebra can be used to solve real problems because the rules of algebra work in real life and numbers can be used to represent the values of real things .  
+
+NORMAL 
+The rational numbers , the real numbers and the complex numbers are all examples of fields . 
+
+
+The 12 th para from normal matches with the 10 th para from simple, with dot product =  0.0736561339586 with shared words  ['z', 'y', 'In', 'z', 'y']
+SIMPLE 
+In algebra , adding z to y ( or y plus z ) is written as y + z . Subtracting z from y ( or y minus z ) is written as y ‚ àí z .  
+
+NORMAL 
+Elementary algebra is the most basic form of algebra . It is taught to students who are presumed to have no knowledge of mathematics beyond the basic principles of arithmetic . In arithmetic , only numbers and their arithmetical operations ( such as +, ‚ àí, √ ó, √ ∑) occur . In algebra , numbers are often denoted by symbols ( such as a , n , x , y or z ). This is useful because : 
+
+
+The 12 th para from normal matches with the 11 th para from simple, with dot product =  0.0463939376035 with shared words  ['z', 'y', '\xb7', '\xc3', 'In']
+SIMPLE 
+In algebra , multiplying y by z ( or y times z ) can be written in 4 ways : y √ ó z , y * z , y¬ ∑ z , or yz .  
+
+NORMAL 
+Elementary algebra is the most basic form of algebra . It is taught to students who are presumed to have no knowledge of mathematics beyond the basic principles of arithmetic . In arithmetic , only numbers and their arithmetical operations ( such as +, ‚ àí, √ ó, √ ∑) occur . In algebra , numbers are often denoted by symbols ( such as a , n , x , y or z ). This is useful because : 
+
+
+The 27 th para from normal matches with the 12 th para from simple, with dot product =  0.106325282978 with shared words  ['1', 'number', '\xc3', '\x97', '=']
+SIMPLE 
+When we multiply a number and a letter in algebra , we write the number in front of the letter : 5 √ ó y = 5y . When the number is 1 , then the 1 is not written because 1 times any number is that number ( 1 √ ó y = y ) and so is not needed .  
+
+NORMAL 
+The nonzero rational numbers form a group under multiplication . Here , the identity element is 1 , since 1 √ ó a = a √ ó 1 = a for any rational number a . The inverse of a is 1 / a , since a √ ó 1 / a = 1 . 
+
+
+The 37 th para from normal matches with the 13 th para from simple, with dot product =  0.0204143074671 with shared words  ['word']
+SIMPLE 
+The word " algebra " is a Latin form of the Arabic word Al - Jabr (" casting ") and comes from a mathematics book Al - Maqala fi Hisab - al Jabr wa - al - Muqabilah , (" Essay on the Computation of Casting and Equation ") written in the 9th century by a famous Persian mathematician , Muhammad ibn M≈ ´ sƒ Å al - Khwƒ Å rizmƒ ´, who was a Muslim born in Khwarizm in Uzbekistan . He flourished under Al - Ma ' moun in Baghdad , Iraq through 813 - 833 CE , and died around 840 CE . The book was brought into Europe and translated into Latin in the 12th century . The book was then given the name ' Algebra '.  
+
+NORMAL 
+The rational numbers , the real numbers and the complex numbers are all examples of fields . 
+{0: 37, 1: 37, 2: 37, 3: 27, 4: 6, 5: 13, 6: 14, 7: 29, 8: 17, 9: 37, 10: 12, 11: 12, 12: 27, 13: 37}

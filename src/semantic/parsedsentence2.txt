@@ -1,0 +1,33 @@
+(ROOT
+  (S
+    (NP (NNP August))
+    (PRN (-LRB- -LRB-)
+      (S
+        (VP (VB t) (-LRB- -LCB-)
+          (NP (JJ respell) (NNP |) (NNP AW) (NNP |) (NNP guust))
+          (-RRB- -RCB-)))
+      (-RRB- -RRB-))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ eighth) (NN month))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (DT the) (NN year))
+              (PP (IN in)
+                (NP (DT the) (NNP Julian)
+                  (CC and)
+                  (NNP Gregorian) (NNP Calendars))))
+            (CC and)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP (CD seven) (NNS months))
+                  (PP (IN with)
+                    (NP
+                      (NP (DT a) (NN length))
+                      (PP (IN of)
+                        (NP (CD 31) (NNS days))))))))))))
+    (. .)))
+
