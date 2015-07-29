@@ -1,10 +1,10 @@
 '''
-    Look at this documentation for more collection methods
+Look at this documentation for more collection methods
 http://nltk.googlecode.com/svn/trunk/doc/api/frames.html
 '''
 from nltk.corpus import PlaintextCorpusReader
 from nltk.text import TextCollection
-from nltk.tokenize import *#sent_tokenize import word_tokenize
+from nltk.tokenize import *
 from nltk.text import *
 import sys
 from nltk.tokenize import WhitespaceTokenizer
@@ -55,26 +55,21 @@ def extractParasInList(name):
     corpuslocation ='/Users/anis/seniorProject/aligned Paragraphs/algebra'
     reader = PlaintextCorpusReader(corpuslocation, '.*\.txt')
     # This gives the list of paragraphs. every paragraph list contains ist of sentences
-    # So it is a list of lists. Bunch of sentenses as a list joins together to make  		#lists of pararagraph
+    # So it is a list of lists. Bunch of sentenses as a list joins together to make  		
+    # lists of pararagraph
     pList = []
     paragraphlist =  reader.paras(name) #'simpleTuring.txt'
     numpara = len(paragraphlist)
     for sentlist in paragraphlist:
-        #print sentlist
         numsent = len(sentlist)
-        #print type(sentlist),
-        #print numsent
      	paraAsAList = []
-     	# this loops through all the sentence lists and make them one list'''
+     	# this loops through all the sentence lists and make them one list
         for i in range(numsent):
-        		paraAsAList = paraAsAList + sentlist[i]	
-        #print paraAsAList # this is the whole parapragph as one list
+        	paraAsAList = paraAsAList + sentlist[i]	
      	paraAsAString = ""
      	for word in paraAsAList:
-        		paraAsAString = paraAsAString + word + str(" ")
-        #print paraAsAString
+     		paraAsAString = paraAsAString + word + str(" ")
         pList.append(paraAsAString)
-        #print len(pList)
     return pList
 
 
@@ -91,9 +86,6 @@ def compute_tfidf(text,filename):
     for i in range(numPara):
         paragraphWords = word_tokenize(text[i])
         colList.append(paragraphWords)
-    
-    #for i in colList:
-        #print i
     collection = TextCollection(colList)
      
     for paraList in colList:
@@ -108,19 +100,12 @@ def compute_tfidf(text,filename):
         '''
         d=sortDict(dict)
         print "AFTER SORTED  <><><><><<><<>><><><><><><><>><><  ",type(d)
-        '''
-        for key,value in d:
-            print key," ",value
-        '''
         textFile=open(filename,"a")
         textFile.write("\n")
-
         for key,value in d:
             s = str(key) + "\t" + str(value)+"\n"
-            #print s
             textFile.write(s)
-        #print dict
-    
+
 
 '''
 Removes == Refereance == types things from the article
@@ -128,29 +113,19 @@ Removes == Refereance == types things from the article
 def removeSubtitles(list):
     count =0
     for elem in list:
-        #print "before ", list
-        #print elem, list.index(elem)
         if(elem.startswith('=')):
-            #print elem
             list.remove(elem)
             count = count +1
-        #print "after ", list
-    
-    #print str("final list "),
-    print "removed that many lines ", count
     return list
 
 '''
-This method removes all lists (2 element list) whose first element contains element from the punct list
+This method removes all lists (2 element list) whose first element 
+contains element from the punct list
 '''
 def filterParagraphList(paragraphList):
-	
 	for wordlist in paragraphList:		
-		#print wordlist
 		if (wordlist!=[] and wordlist[0] in PUNCTLIST):
 			paragraphList.remove(wordlist)
-	
-	
 	for wordlist in paragraphList:
 		if (wordlist!=[] and wordlist[0] in STOPWORDS):
 			paragraphList.remove(wordlist)
@@ -166,7 +141,6 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
         itemList = word_tokenize(line)
         simpleParagraphsList.append(itemList)     
     # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
-    #print simpleParagraphsList
     S_topWordsFromPara = []
     N_topWordsFromPara = []
 
@@ -176,14 +150,9 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
         if(list ==[]):
             sbreak.append(index)
     sbreak.append(len(simpleParagraphsList))
-    
-    
     for idx in range(len(sbreak)-1):
         S_topWordsFromPara.append(simpleParagraphsList[sbreak[idx]+1:sbreak[idx+1] ])
-        
-    
     # NORMAL Part
-
     textFile=open(normalFileName,"r")
     for line in textFile.readlines():
         itemList = word_tokenize(line)
@@ -209,11 +178,11 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
     for line in textFile.readlines():
         itemList = word_tokenize(line)
         simpleParagraphsList.append(itemList)
-        # This removes all the punctuations and other common stopwords from the list. SEE PUNCTLIST,STOPWORDS for detail
+        # This removes all the punctuations and other common stopwords from the list. 
+        # SEE PUNCTLIST,STOPWORDS for detail
         simpleParagraphsList = filterParagraphList(simpleParagraphsList)
-        
-        # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
-    #print simpleParagraphsList
+        # this is a list of paras with ALL tfidf words selected. 
+        # format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
     TOP = 15
     S_topWordsFromPara = []
     N_topWordsFromPara = []
@@ -228,7 +197,6 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
     for line in textFile.readlines():
         itemList = word_tokenize(line)
         #simpleTupleList.append(itemList)
-        #print itemList
         normalParagraphsList.append(itemList)
 
     
@@ -240,14 +208,8 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
     for index in range(len(normalParagraphsList)):
         list = normalParagraphsList[index]
         if(list ==[]):
-            #print index, "   ", list
             if(index+TOP+1<len(normalParagraphsList)):
-                #print normalParagraphsList[index+1:index+TOP+1]
                 N_topWordsFromPara.append(normalParagraphsList[index+1:index+TOP+1])
-                #print "\n"
-                
-    #print len(N_topWordsFromPara)
-                
     return S_topWordsFromPara,N_topWordsFromPara 
 
 
@@ -281,7 +243,6 @@ def findCommonWords(Para1,Para2):
                 sharedWords.append(tuple1[0])
                 simpleWeights.append(tuple1[1])
                 normalWeights.append(tuple2[1])
-                #print tuple1[1],tuple2[1]
     dotProduct = computeDotProduct(simpleWeights,normalWeights)
     return sharedWords,dotProduct
 
@@ -306,12 +267,6 @@ def matchingPara(simpleDoc,normalDoc):
                 max = dotProduct
                 whichPara = normalDoc.index(nPara)
                 list = commonWord
-        #print "\n"
-        #print "The", whichPara, "th para from normal matches with the", simpleDoc.index(sPara),"th para from simple, with dot product = ", max, "with shared words ", list
-        #print "SIMPLE "
-        #print orgSimpleParas[simpleDoc.index(sPara)], "\n"
-        #print "NORMAL "
-        #print orgNormalParas[whichPara]
         pairedPara[simpleDoc.index(sPara)] = whichPara
     
     
@@ -340,14 +295,8 @@ def sentenceAlignment(simpleParas, normalParas, pairedPara):
         print "**********************************"
         print "PARAGRAPH"
         print "##################################"
-        
         SPara = simpleParas[key]
         NPara = normalParas[value]
-        #print SPara
-        #print "\n"
-        #print NPara 
-        #print "\n<><><><><<><>"
-        
         # given two paragraphs, it returns a list of all the sentences where each sentence is a list of words, with a list of simple sentence list and normal sentence list
         colList, sslist,nslist = formSentenceList(SPara,NPara)
         #print colList, type(colList), len(colList)
@@ -514,8 +463,6 @@ if __name__=='__main__':
     topSimpWords,topNormalWords = extractTopWordsFromPara("simpleAlgebratfidf.txt","normalAlgebratfidf.txt") # based on paragraphs
     #matchingPara(allSimpleWords,allNormalWords)
     matchingPara(topSimpWords,topNormalWords)
-    print pairedPara
-    
-    sentenceAlignment(orgSimpleParas,orgNormalParas, pairedPara)
 
+    sentenceAlignment(orgSimpleParas,orgNormalParas, pairedPara)
     # Now align sentences including wordnet info at a phrase level
