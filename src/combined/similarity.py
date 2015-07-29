@@ -82,21 +82,15 @@ def extractParasInList(name):
     paragraphlist =  reader.paras(name) #'simpleTuring.txt'
     numpara = len(paragraphlist)
     for sentlist in paragraphlist:
-        #print sentlist
         numsent = len(sentlist)
-        #print type(sentlist),
-        #print numsent
      	paraAsAList = []
      	# this loops through all the sentence lists and make them one list'''
         for i in range(numsent):
-        		paraAsAList = paraAsAList + sentlist[i]	
-        #print paraAsAList # this is the whole parapragph as one list
+     		paraAsAList = paraAsAList + sentlist[i]	
      	paraAsAString = ""
      	for word in paraAsAList:
         		paraAsAString = paraAsAString + word + str(" ")
-        #print paraAsAString
         pList.append(paraAsAString)
-        #print len(pList)
     return pList
 
 
@@ -113,36 +107,20 @@ def compute_tfidf(text,filename):
     for i in range(numPara):
         paragraphWords = word_tokenize(text[i])
         colList.append(paragraphWords)
-    
-    #for i in colList:
-        #print i
     collection = TextCollection(colList)
      
     for paraList in colList:
         dict={}
         for term in paraList:
-            #print term, "has weight: ", collection.tf_idf(term,paraList)
             dict[term]= collection.tf_idf(term,paraList)
-        '''
-        print "BEFORE  <><><><><<><<>><><><><><><><>><><  ",type(dict)
-        for key,value in dict.iteritems():
-            print key," ",value
-        '''
         d=sortDict(dict)
-        #compute_tfidfprint "AFTER SORTED  <><><><><<><<>><><><><><><><>><><  ",type(d)
-        '''
-        for key,value in d:
-            print key," ",value
-        '''
         textFile=open(filename,"a")
         textFile.write("\n")
 
         for key,value in d:
             s = str(key) + "\t" + str(value)+"\n"
-            #print s
             textFile.write(s)
-        #print dict
-    
+
 
 '''
 Removes == Refereance == types things from the article
@@ -150,16 +128,9 @@ Removes == Refereance == types things from the article
 def removeSubtitles(list):
     count =0
     for elem in list:
-        #print "before ", list
-        #print elem, list.index(elem)
         if(elem.startswith('=')):
-            #print elem
             list.remove(elem)
             count = count +1
-        #print "after ", list
-    
-    #print str("final list "),
-    print "removed that many lines ", count
     return list
 
 '''
@@ -168,7 +139,6 @@ This method removes all lists (2 element list) whose first element contains elem
 def filterParagraphList(paragraphList):
 	
 	for wordlist in paragraphList:		
-		#print wordlist
 		if (wordlist!=[] and wordlist[0] in PUNCTLIST):
 			paragraphList.remove(wordlist)
 	
@@ -188,7 +158,6 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
         itemList = word_tokenize(line)
         simpleParagraphsList.append(itemList)     
     # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
-    #print simpleParagraphsList
     S_topWordsFromPara = []
     N_topWordsFromPara = []
 
@@ -198,14 +167,10 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
         if(list ==[]):
             sbreak.append(index)
     sbreak.append(len(simpleParagraphsList))
-    
-    
     for idx in range(len(sbreak)-1):
         S_topWordsFromPara.append(simpleParagraphsList[sbreak[idx]+1:sbreak[idx+1] ])
         
-    
     # NORMAL Part
-
     textFile=open(normalFileName,"r")
     for line in textFile.readlines():
         itemList = word_tokenize(line)
@@ -235,7 +200,6 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
         simpleParagraphsList = filterParagraphList(simpleParagraphsList)
         
         # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
-    #print simpleParagraphsList
     TOP = 15
     S_topWordsFromPara = []
     N_topWordsFromPara = []
@@ -250,10 +214,7 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
     for line in textFile.readlines():
         itemList = word_tokenize(line)
         #simpleTupleList.append(itemList)
-        #print itemList
         normalParagraphsList.append(itemList)
-
-    
     #This removes all the punctuations and other common stopwords from the list. SEE PUNCTLIST,STOPWORDS for detail
     
     normalParagraphsList = filterParagraphList(normalParagraphsList)    
@@ -262,17 +223,9 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
     for index in range(len(normalParagraphsList)):
         list = normalParagraphsList[index]
         if(list ==[]):
-            #print index, "   ", list
             if(index+TOP+1<len(normalParagraphsList)):
-                #print normalParagraphsList[index+1:index+TOP+1]
                 N_topWordsFromPara.append(normalParagraphsList[index+1:index+TOP+1])
-                #print "\n"
-                
-    #print len(N_topWordsFromPara)
-                
     return S_topWordsFromPara,N_topWordsFromPara 
-
-
 
 
 '''
@@ -282,28 +235,26 @@ Computes dot product of two given lists of equal length
 def computeDotProduct(list1,list2):
     result = 0.0
     for i in range(len(list1)):
-
         result = result + (float(list1[i]) * float(list2[i]))
     return result
 
 
 
 '''
-    Given Two Paragraphs, this returns the list if common shared words. Params: para1 = para2 = [ ...[   ,  ] , [   ,   ], [   ,   ] ......      ] 
+    Given Two Paragraphs, this returns the list if common shared words. 
+    Params: para1 = para2 = [ ...[   ,  ] , [   ,   ], [   ,   ] ......      ] 
 '''
 
 def findCommonWords(Para1,Para2):
     sharedWords = []
     simpleWeights = []
     normalWeights = []
-    
     for tuple1 in Para1:
         for tuple2 in Para2:
             if(tuple1!=[] and tuple2!=[] and tuple1[0]==tuple2[0]):
                 sharedWords.append(tuple1[0])
                 simpleWeights.append(tuple1[1])
                 normalWeights.append(tuple2[1])
-                #print tuple1[1],tuple2[1]
     dotProduct = computeDotProduct(simpleWeights,normalWeights)
     return sharedWords,dotProduct
 
@@ -314,37 +265,24 @@ def findCommonWords(Para1,Para2):
 def matchingPara(simpleDoc,normalDoc):
     big = []
     for sPara in simpleDoc:
-
         commonWord = []
         max = 0
         whichPara=0
         list = []
 
         for nPara in normalDoc:
-            #print "These are the shared words between the simple and normal",simpleDoc.index(sPara),normalDoc.index(nPara)
             commonWord, dotProduct = findCommonWords(sPara,nPara)
             if(dotProduct>=max):
                 max = dotProduct
                 whichPara = normalDoc.index(nPara)
                 list = commonWord
-        '''
-        print "\n"
-        print "The", whichPara, "th para from normal matches with the", simpleDoc.index(sPara),"th para from simple, with dot product = ", max, "with shared words ", list
-        print "SIMPLE "
-        print orgSimpleParas[simpleDoc.index(sPara)], "\n"
-        print "NORMAL "
-        print orgNormalParas[whichPara]
-        '''
         pairedPara[simpleDoc.index(sPara)] = whichPara
 
 
 def formSentenceList(spara,npara):
     col = []
     sslist = sent_tokenize(spara)
-
     nslist = sent_tokenize(npara)
-    #print sslist
-    #print nslist
     
     for sentence in sslist:
         tokenizedSentence = word_tokenize(sentence)
@@ -355,9 +293,7 @@ def formSentenceList(spara,npara):
         col.append(tokenizedSentence)
     return col,sslist,nslist
 
-def sentenceAlignment(simpleParas, normalParas, pairedPara): 
-    #print simpleParas, len(simpleParas)
-    #print normalParas, len(normalParas)
+def sentenceAlignment(simpleParas, normalParas, pairedPara):
     for key,value in pairedPara.items(): # key is simple and value in normal
         print "**********************************"
         print "PARAGRAPH"
@@ -365,18 +301,11 @@ def sentenceAlignment(simpleParas, normalParas, pairedPara):
         
         SPara = simpleParas[key]
         NPara = normalParas[value]
-        #print SPara
-        #print "\n"
-        #print NPara 
-        #print "\n<><><><><<><>"
         
         # given two paragraphs, it returns a list of all the sentences where each sentence is a list of words, with a list of simple sentence list and normal sentence list
         colList, sslist,nslist = formSentenceList(SPara,NPara)
-        #print colList, type(colList), len(colList)
         collection = TextCollection(colList)
-        #print collection
-        ########### this was commented
-        
+
         dict={}
         for sentence in colList:
             weight = 0
@@ -391,9 +320,7 @@ def sentenceAlignment(simpleParas, normalParas, pairedPara):
             
             #dict = sortDict(dict)
         print "================================================================"    
-        #print dict
-        # Now I have the tf-idf value of every terms in the sentences
-        
+
         '''
         #print sslist
         #print nslist
@@ -458,13 +385,9 @@ def parseFile(fileName):
     outputFile=open(name,"w+")
     outputFile.close()
     cmd = '/home/aniszaman/seniorProject/stanford-parser/lexparser.sh '+filePath+' >'+name
-
-    #print cmd
-    #print filePath 
     os.system(cmd)
     
-    #print result
-    
+
     #textFile=open(parsedFileName,"a+")
     #textFile.write(result)
 '''
@@ -488,10 +411,7 @@ def formSentenceListForSementic(spara,npara):
     simpleSentList = []
     normalSentList = []
     sslist = sent_tokenize(spara)
-
     nslist = sent_tokenize(npara)
-    #print sslist
-    #print nslist
     
     for sentence in sslist:
         #tokenizedSentence = word_tokenize(sentence)
@@ -545,19 +465,10 @@ def alignText(simpleParas, normalParas, pairedPara):
     for key,value in pairedPara.items(): # key is simple and value in normal        
         SPara = simpleParas[key]
         NPara = normalParas[value]
-        #print SPara
-        #print "----------"
-        #print NPara
-        print "=================Paragraphs were above======================================"
-        print "=================Paragraphs were above======================================"
-        print "=================Paragraphs were above======================================"
-        print "=================Paragraphs were above======================================"
         print "=================Paragraphs were above======================================"
         # given two paragraphs, it returns a list of all the sentences where each sentence is a list of words, with a list of simple sentence list and normal sentence list
         colList, sslist,nslist = formSentenceList(SPara,NPara)
-        #print colList, type(colList), len(colList)
         collection = TextCollection(colList)
-        #print collection
 
         # this is a list of Word object
         wordsWithWeight = []
@@ -565,11 +476,9 @@ def alignText(simpleParas, normalParas, pairedPara):
         dict={}
         for sentence in colList:
             weight = 0
-            #print sentence    
             for term in sentence:
                 if term not in PUNCTLIST or term not in STOPWORDS or term not in commonAuxilaryVerbs:
                     weight = collection.tf_idf(term,sentence)
-                    #print "TERM -> ",term, "is",weight
                     # what if the term is already in the dic, we need to add the weight
                     if(term not in dict):
                         w = Word(term,"","")
@@ -579,9 +488,6 @@ def alignText(simpleParas, normalParas, pairedPara):
                     # dict[term] = weight
             
             #dict = sortDict(dict)
-            
-        #print sslist
-        #print nslist
         temp=[]
         for sentence in sslist:
             tokSen = word_tokenize(sentence)
@@ -600,7 +506,6 @@ def alignText(simpleParas, normalParas, pairedPara):
             simplefilename = "sentence1.txt"
             SFile=open(simplefilename,"w+")
             SFile.write(stringSimpleLine)
-
             SFile.close()
             parseFile("sentence1.txt")
             # if failed to parse, skip this sentence and continue
@@ -609,8 +514,6 @@ def alignText(simpleParas, normalParas, pairedPara):
 
             buildClause("parsedsentence1.txt", "one")
             # end semantic part
-
-
             maxSimilarity = 0
             for normalLine in nslist:
                 stringNormalLine = listToString(normalLine)
@@ -623,35 +526,23 @@ def alignText(simpleParas, normalParas, pairedPara):
                 #check whether parsing was done properly
                 # if failed to parse, skip this sentence and continue
                 if verifyParsedFile("parsedsentence2.txt")  == False:
-                    #print "**********************************"
-                    #print "##################################"
-                    #print "failed to parse:---> "+ sentence2
                     continue
 
                 # end semantic part
 
                 #buildClause("parsedsentence1.txt", "one")
-                #print "=======SENTENCE Two======="
                 buildClause("parsedsentence2.txt","two")
                 sentence1Words = []
                 sentence2Words = []
                 #makeContextFile(n1,v1,n2,v2)
                 
                 sentence1Words, sentence2Words = makeContextFile(n1,v1,n2,v2)
-                #print len(sentence1Words), len(sentence2Words)
-                
                 # all words is a dictionary of words:tfidf. I converted this to a dictionary from a list of wordsWithWeight for convenience 
                 allWords = {}
                 for w in wordsWithWeight:
-                    #w.printWord()
                     allWords[w.getValue()]=w.getWeight()
-                #print "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-                #print allWords
-                # for first part, sentence 1 words
                 numerator1 = 0
                 denominator1 = 0
-                #print allWords
-
                 for word in sentence1Words:
                     if(word.getValue() in allWords):
                         tfidf = allWords[word.getValue()]
@@ -661,11 +552,6 @@ def alignText(simpleParas, normalParas, pairedPara):
                 if(denominator1==0):
                     denominator1 = 1
                 partA = numerator1/denominator1
-                
-
-                #for w in sentence2Words:
-                #    print w.getValue(),
-                # for second part, sentence 2 words
                 numerator2 = 0
                 denominator2 = 0
                 for word in sentence2Words:
@@ -687,10 +573,6 @@ def alignText(simpleParas, normalParas, pairedPara):
                 print stringNormalLine
                 print "Similarity Score -----> ", SIMILARITY
                 print "><><><><><><><><><><><><><><><><><><><><><><"
-
-                #print "The similarity is: ",
-                #print partA, partB, SIMILARITY
-                
         ## END OF ONE PAIRED PARA
 
 def computeWeight(term,Line,wordsWithWeight):
@@ -730,7 +612,6 @@ def union(simpleLine,normalLine):
 def buildClause(filename,whichSentence):
     
     #result = os.system('/Users/anis/Documents/stanford-parser-2012-11-12/lexparser.sh /data/sample.txt')
-    #print result
     textFile=open(filename,"r")
     LIST = []
     sen = ""
@@ -740,25 +621,18 @@ def buildClause(filename,whichSentence):
             LIST.append(word_tokenize(line))
 
     # getting rid of the (ROOT(S and the two closing ")" form the end to keep sen balanced
-    #print (LIST)
     # this will show the parse tree, uncomment it if you want to see the tree
     #print sen
     if len(LIST)>0:
         LIST = LIST[2:]
-    #print (LIST)
     # now removing the two ")" from the last list
         index = len(LIST)-1
-        #print "%%%%%%%%%%%"
-        #print index, len(LIST), LIST
         lastList = LIST[index]
         lastList = lastList[0:len(lastList)-2]
         LIST = LIST[0:len(LIST)-1] 
         LIST.append(lastList)
     # this conver list of lists (i.e LIST) to a one flat list, LIST
         LIST = list(itertools.chain.from_iterable(LIST))
-    
-    #print LIST
-    
     count = 0
     clause = ""
     MAP = []
@@ -773,64 +647,36 @@ def buildClause(filename,whichSentence):
         
         if(count==0):
             MAP.append(index)
-
-    #print MAP 
-
-    #print len(LIST)
-    
-
     NOUN=[]
     VERB=[]
-                
     for i in range(len(MAP)):
         
         if(i==0):
-            #print "NOUN"
             NOUN = LIST[i:MAP[i]+1]
-            #print NOUN
-        
+
         if(i==len(MAP)-1):
-            #print "LAST PART"
-            #print LIST[MAP[i]: ]
-            #print i, MAP[i], MAP[i-1]
-            #print LIST[(MAP[i-1]+1) : ]
             print " "
         # the middle part
         if(i>0 and i < len(MAP)-1):
             #print i,MAP[i]
             start = MAP[i-1]+1
             end = MAP[i]
-            #print "VERB      "
             VERB =LIST[  start   :   end   ]
-            #print VERB
-            
-    #print "NOUN PHRASE><><><><><><><><"
+
     nounPhrase = ""
     importantNouns={}
     for index in range(len(NOUN)):
         if(index+1<=(len(NOUN)-1) and index-2 > 0):
-            
             if(NOUN[index]== ")" and NOUN[index-2] in TAGLIST ):
-                #print NOUN[index-1],NOUN[index-2],
                 nounPhrase = nounPhrase + NOUN[index-1]+ " "+ NOUN[index-2] + " "
                 if(NOUN[index-2].startswith('N')):
                     importantNouns[NOUN[index-1]] = NOUN[index-2]
-
-
-    #print "NOUN PHRASE as a string><><><><><><><><><><"
-    #print nounPhrase
-    #print "IMPORTANT NOUNS"
-    #print importantNouns
     if(whichSentence=="one"):
         global n1
         n1 = importantNouns
     elif(whichSentence=="two"):
         global n2
         n2 = importantNouns
-
-    #print NOUN
-    #print "\n"
-    #print "VERB PHRASE: <><><><>"
     verbPhrase = ""
     importantVerbs = {}
     for index in range(len(VERB)):
@@ -842,10 +688,6 @@ def buildClause(filename,whichSentence):
                 # filtering out the auxilary verbs and taking only the interesting verbs
                 if((VERB[index-1] not in commonAuxilaryVerbs) and VERB[index-2].startswith('V')):
                     importantVerbs[VERB[index-1]] = VERB[index-2]
-    #print "VERB PHRASE as a string <><><><><><><><>"
-    #print verbPhrase
-    #print "IMPORTANT VERBS"
-    #print importantVerbs
 
     if(whichSentence=="one"):
         global v1
@@ -861,7 +703,7 @@ def buildClause(filename,whichSentence):
         
 '''
 def extractSense(fileName):
-    #print "****calling ukb-2****"
+    # Calling ukb-2
     binFile = "/home/aniszaman/seniorProject/ukb-2.0/bin/wn30.bin"
     dicFile = "/home/aniszaman/seniorProject/ukb-2.0/lkb_sources/30/wnet30_dict.txt"
     # finally this will change
@@ -893,12 +735,6 @@ def readWSD(wsdFile, sentence1, sentence2):
         
     del lines[0]
     #lines look like this: ['ctx_01 w2  02684924-v !! continue\n',.... 'ctx_02 w1  01056411-n !! stop\n', ]
-    #for l in lines:
-    #    print l
-    #print "#############################WORDS FROM SENTENCE1###################################"
-    #for w in sentence1:
-    #    print w.getValue(),w.getRootValue()
-    #print "##############################################################"
     for l in lines:
         r = l.split()
         if(r[0]=='ctx_01'):
@@ -906,28 +742,18 @@ def readWSD(wsdFile, sentence1, sentence2):
             senseVal  = []
             root = r[len(r)-1]
             senseVal = r[len(r)-3]
-            #print root, senseVal
-            #print type(senseVal)
-    
-            #print root, senseVal
-            #print type(senseVal)
             # this loop gets rid of any precidding 0 from the database location/ synset location
             while(senseVal[0]=="0"):
                 senseVal = senseVal[1:]
-            #print root, senseVal
-            #print type(senseVal)
-        
+
             for w in sentence1:
                 #print w.getValue()
                 if(w.getRootValue()==root and isinstance("",type(senseVal))):
-                    #print w.getRootValue(), root
-
                     # splitting '13244109-n'  ---> ['13244109', 'n']
                     senseVal = senseVal.split('-')
                     p = senseVal[len(senseVal)-1]
                     num = int(senseVal[0])
-                    #print p, num, w.value
-               
+
                     if(num!=-1):
                         s = wn._synset_from_pos_and_offset(p, num)
                         
@@ -938,34 +764,21 @@ def readWSD(wsdFile, sentence1, sentence2):
         if(r[0]=='ctx_02'):
             root2 = r[len(r)-1]
             senseVal2 = r[len(r)-3]
-            #print "1=>", type(senseVal2)
             #s2SenseVal = r[len(r)-3]
-            #print "------>",root, senseVal
             # this loop gets rid of any precidding 0 from the database location/ synset location
             while(senseVal2[0]=="0"):
                 senseVal2 = senseVal2[1:]
-            #print "------>>>>>>>>",root, senseVal
-            #print "2=>", type(senseVal2)
-            #print senseVal2
             for w in sentence2:
                 if(w.getRootValue()==root2 and isinstance("",type(senseVal2))):
-                    #print w.getRootValue(), root2, senseVal2, type(senseVal2)
-                    #print "before", len(senseVal2), type(senseVal2),senseVal2
                     senseVal2 = senseVal2.split('-')
-                    #print "AFTER:", senseVal2
 
                     p = senseVal2[len(senseVal2)-1]
                     num = int(senseVal2[0])
-
-                    #print w.getRootValue(), p, num, w.value
                     if(num!=-1):
                         s = wn._synset_from_pos_and_offset(p, num)
                         s = s.__str__()
                         s = s.split("'")[1]
                         w.setSynSet(s)
-                        
-        
-    #print "^^^^^^^^^^^^^^^^^^^^^^^^"
     SENT1NOUNS = []
     SENT1VERBS = []
     
@@ -977,16 +790,12 @@ def readWSD(wsdFile, sentence1, sentence2):
             SENT1NOUNS.append(w1)
         if(w1.getPos()=='VERB'):
             SENT1VERBS.append(w1)
-    #    w1.printWord()
-    #print "^^^^^^^^^^^^^^^^^^^^^^^^^"
     
     for w2 in sentence2:
         if(w2.getPos()=='NOUN'):
             SENT2NOUNS.append(w2)
         if(w2.getPos()=='VERB'):
             SENT2VERBS.append(w2)
-    #    w2.printWord()
-    #print "{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}"
 
     # Finding the weights for nouns
     # record the max similarity values, later just add them
@@ -997,11 +806,8 @@ def readWSD(wsdFile, sentence1, sentence2):
     nounMapping = {}
     
     for n1 in SENT1NOUNS:
-        #print n1.getValue()
         if(n1.getSynSet()!="null"):
-            #n1.printWord()
             exp1 = n1.getSynSet() # this is something like this: believe.v.01
-            #print exp1 
             noun1 = wn.synset(exp1)
 
             maxValue = 0
@@ -1010,14 +816,9 @@ def readWSD(wsdFile, sentence1, sentence2):
             for n2 in SENT2NOUNS:
                 if(n1.getSynSet()!="null"):
                     exp2 = n2.getSynSet() # this is something like this: believe.v.01
-                    #print exp2
-                    #print "this is the expression for noun2==============================================================>>>>>>>"
-    
-                    #print exp2, type(exp2)
                     if(exp2!='null'):
                         noun2 = wn.synset(exp2)
                         value = noun1.path_similarity(noun2)
-                        #print value
                         if(value > maxValue):
                             maxValue = value
 
@@ -1030,9 +831,6 @@ def readWSD(wsdFile, sentence1, sentence2):
     maxVerbSimilarityValues = []
     # this is for me to see which word from sentence 1 maps to the corresponding words in sentence 2
     verbMapping = {}
-    
-    #for w in SENT1VERBS:
-    #    w.printWord()
 
     for v1 in SENT1VERBS:
         if(v1.getSynSet()!="null"):
@@ -1060,33 +858,15 @@ def readWSD(wsdFile, sentence1, sentence2):
             #wordsFromSentence1.append(v1)
             #VERBLIST.append(v1)
             #VERBLIST.append(matchedVerb2)
-            #print "the max similarity between " + v1.getValue() + " and "+vtemp +"is" + str(maxValue)
         else:
             v1.setWeight(1)
     allWordsfromSentence1 = SENT1NOUNS+SENT1VERBS
-    #print "------------------>>>>>>>>>>>>>>>>>>>>>>>>after>>>>>>>>> sentence1 verbs"
-    '''
-    for w in SENT1VERBS:
-        w.printWord()
-    print "------------------>>>>>>>>>>>>>>>>>>>>>>>>after>>>>>>>>> sentence1 nouns"
-
-    for w in SENT1NOUNS:
-        w.printWord()
-    print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$TOGETHER$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-
-    for w in allWordsfromSentence1:
-        w.printWord()
-    '''
     return allWordsfromSentence1
-    '''
-    #return VERBLIST+NOUNLIST
-    return wordsFromSentence1
-    #PAIREDSENTENCES.write(res)
-    '''
 '''
 makeContextFile -> this takes in the dic of Noun and Verbs (word:pos format) of two sentences and generate the 
-                    input file that is used to get the sense of every word.
-    it calls the extractSense method, runs the ukb ppr and save the content in a file  '''
+input file that is used to get the sense of every word.
+it calls the extractSense method, runs the ukb ppr and save the content in a file
+'''
 def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
     filename = "context.txt"
     file=open(filename,"w+")
@@ -1101,7 +881,6 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
     file.write("ctx_01")
     file.write("\n")
     for key,value in nounDic1.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=='N'):
@@ -1116,11 +895,9 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         nounResult1 = nounResult1+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         nounWordId1+=1
-    #print nounResult1
-    
+
     # verb phrase of sentence 1
     for key,value in verbDic1.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=="V"):
@@ -1133,11 +910,9 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         verbResult1 = verbResult1+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(verbWordId1)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         verbWordId1+=1
-    #print verbResult1
     # sentence1 contains all the important verb and nouns from sentence1, all as string for to be used by UKB 
     sentence1 = nounResult1+verbResult1
-    #print sentence1
-    
+
     file.write(sentence1)
     
     # this is a list of Word objects.
@@ -1147,7 +922,6 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
     file.write("\n")
     # noun phrase of sentence 2
     for key,value in nounDic2.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=='N'):
@@ -1162,11 +936,9 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         nounResult2 = nounResult2+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId2)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         nounWordId2+=1
-    #print nounResult2
-    
+
     # verb phrase of sentence 1
     for key,value in verbDic2.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=="V"):
@@ -1179,33 +951,17 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         verbResult2 = verbResult2+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(verbWordId2)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         verbWordId2+=1
-    #print verbResult2
     # sentence1 contains all the important verb and nouns from sentence1, 
     sentence2 = nounResult2+verbResult2
-    #print sentence2    
     file.write(sentence2)
     file.close()
     # the file is saved and next is run the ukb to get the sense numbers back for ever word
-    #print len(wordsInSentence1)
-    #print len(wordsInSentence2)
-    '''
-    for w in wordsInSentence1:
-        print w.printWord()
-    print "--------------"
-    for w in wordsInSentence2:
-        print w.printWord()
-    '''
     extractSense(filename) 
     #print "*************************Oneway inside readWSD**************************"
     words1 = readWSD("sensedcontext.txt",wordsInSentence1,wordsInSentence2)
     
-    #for w in words1:
-    #    w.printWord()
     #print "*************************the other way****************************"
     words2 = readWSD("sensedcontext.txt",wordsInSentence2,wordsInSentence1)
-    
-    #for w in words2:
-    #    w.printWord()
     return words1, words2
     
 
