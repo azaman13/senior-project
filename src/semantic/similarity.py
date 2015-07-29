@@ -48,8 +48,6 @@ def sortDict(dict):
     items.sort()    
     items.reverse()
     dict = [(k, v) for v, k in items]
-    #for key,value in dict:
-        #print "%s: %s" % (key, value)
     return dict
     
 # this method is not in semantic version only
@@ -86,7 +84,6 @@ def extractParasInList(name):
     paragraphlist =  reader.paras(name) #'simpleAugust.txt'
     numpara = len(paragraphlist)
     for sentlist in paragraphlist:
-        #print sentlist
         numsent = len(sentlist)
         paraAsAList = []
         # this loops through all the sentence lists and make them one list'''
@@ -95,9 +92,7 @@ def extractParasInList(name):
         paraAsAString = ""
         for word in paraAsAList:
                 paraAsAString = paraAsAString + word + str(" ")
-        #print paraAsAString
         pList.append(paraAsAString)
-        #print len(pList)
     return pList
 
 
@@ -113,8 +108,6 @@ def extractParasInList(name):
 '''
 def compute_tfidf(text,filename):
     numPara = len(text)
-    #print "there should be this many para in the text file ", numPara
-    
     colList = []
     paragraphWords = []
     for i in range(numPara):
@@ -126,7 +119,6 @@ def compute_tfidf(text,filename):
     for paraList in colList:
         dict={}
         for term in paraList:
-            #print term, "has weight: ", collection.tf_idf(term,paraList)
             dict[term]= collection.tf_idf(term,paraList)
         
         d=sortDict(dict)
@@ -136,10 +128,8 @@ def compute_tfidf(text,filename):
 
         for key,value in d:
             s = str(key) + "\t" + str(value)+"\n"
-            #print s
             textFile.write(s)
-        #print dict
-    
+            
 
 '''
 @Description: Removes == Refereance == types things from the article
@@ -149,20 +139,14 @@ def compute_tfidf(text,filename):
 def removeSubtitles(list):
     count =0
     for elem in list:
-        #print "before ", list
-        #print elem, list.index(elem)
         if(elem.startswith('=')):
-            #print elem
             list.remove(elem)
             count = count +1
-        #print "after ", list
-    
-    #print str("final list "),
-    print "removed that many lines ", count
     return list
 
 '''
-This method removes all lists (2 element list) whose first element contains element from the punct list
+This method removes all lists (2 element list) whose first element 
+contains element from the punct list
 '''
 def filterParagraphList(paragraphList):
     
@@ -192,9 +176,9 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
     for line in textFile.readlines():
         itemList = word_tokenize(line)
         simpleParagraphsList.append(itemList)     
-    # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) 
+    # this is a list of paras with ALL tfidf words selected. 
+    # format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) 
     # list of all words
-    #print simpleParagraphsList
     S_topWordsFromPara = []
     N_topWordsFromPara = []
 
@@ -204,14 +188,11 @@ def extractAllWordsFromPara(simpleFileName,normalFileName):
         if(list ==[]):
             sbreak.append(index)
     sbreak.append(len(simpleParagraphsList))
-    
-    
     for idx in range(len(sbreak)-1):
         S_topWordsFromPara.append(simpleParagraphsList[sbreak[idx]+1:sbreak[idx+1] ])
         
     
     # NORMAL Part
-
     textFile=open(normalFileName,"r")
     for line in textFile.readlines():
         itemList = word_tokenize(line)
@@ -248,7 +229,6 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
         simpleParagraphsList = filterParagraphList(simpleParagraphsList)
         
         # this is a list of paras with ALL tfidf words selected. format is [ [P1] , [P2]  [P3] ... [Pn]    ], where Pn is  a (2 element) list of all words
-    #print simpleParagraphsList
     TOP = 15
     S_topWordsFromPara = []
     N_topWordsFromPara = []
@@ -277,12 +257,7 @@ def extractTopWordsFromPara(simpleFileName,normalFileName):
         if(list ==[]):
             #print index, "   ", list
             if(index+TOP+1<len(normalParagraphsList)):
-                #print normalParagraphsList[index+1:index+TOP+1]
                 N_topWordsFromPara.append(normalParagraphsList[index+1:index+TOP+1])
-                #print "\n"
-                
-    #print len(N_topWordsFromPara)
-                
     return S_topWordsFromPara,N_topWordsFromPara 
 
 
@@ -318,7 +293,6 @@ def findCommonWords(Para1,Para2):
                 sharedWords.append(tuple1[0])
                 simpleWeights.append(tuple1[1])
                 normalWeights.append(tuple2[1])
-                #print tuple1[1],tuple2[1]
     dotProduct = computeDotProduct(simpleWeights,normalWeights)
     return sharedWords,dotProduct
 
@@ -345,12 +319,7 @@ def matchingPara(simpleDoc,normalDoc):
         lst = []
         
         for nPara in normalDoc: #format of nPara => [ [word, #],[word,#].... ]
-            #print "These are the shared words between the simple and normal",simpleDoc.index(sPara),normalDoc.index(nPara)
-            #j = 0
             commonWord, dotProduct = findCommonWords(sPara,nPara)
-            #print "The common Words are =====================================\n"
-            #print commonWord, dotProduct
-
             if(dotProduct>maxWeight):
                 maxWeight = dotProduct
                 whichNormalPara = normalDoc.index(nPara)
@@ -1002,10 +971,8 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         verbResult1 = verbResult1+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(verbWordId1)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         verbWordId1+=1
-    #print verbResult1
     # sentence1 contains all the important verb and nouns from sentence1, 
     sentence1 = nounResult1+verbResult1
-    #print sentence1
     file.write(sentence1)
     
     # this is a list of Word objects.
@@ -1015,7 +982,6 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
     file.write("\n")
     # noun phrase of sentence 2
     for key,value in nounDic2.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=='N'):
@@ -1030,11 +996,9 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         nounResult2 = nounResult2+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId2)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         nounWordId2+=1
-    #print nounResult2
-    
+
     # verb phrase of sentence 1
     for key,value in verbDic2.items():
-        #print key, value
         wordValue = key
         abbPos = value
         if(value[0]=="V"):
@@ -1047,10 +1011,8 @@ def makeContextFile(nounDic1, verbDic1,nounDic2,verbDic2):
         verbResult2 = verbResult2+str(WORD.getRootValue())+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(verbWordId2)+str(tag)+str(1)+" "
         #nounResult1 = nounResult1+str(key)+str(tag)+str(value[0].lower())+str(tag)+str("w")+str(nounWordId1)+str(tag)+str(1)+" "
         verbWordId2+=1
-    #print verbResult2
     # sentence1 contains all the important verb and nouns from sentence1, 
     sentence2 = nounResult2+verbResult2
-    #print sentence2    
     file.write(sentence2)
     file.close()
     # the file is saved and next is run the ukb to get the sense numbers back for ever word
@@ -1120,19 +1082,5 @@ if __name__=='__main__':
     
     # calling matching method -> return the mapping of paragraphs"
     matchingPara(topSimpWords,topNormalWords)
-    print pairedPara
-        
-
-    # This is the new part
-    #print "11. alignText: matches respective paragraphs"
-    #print "12. (still inside alighText) then for every pair of paragraphs, it calls formSentenceListForSementic"
-    #print "13. parse: Parse the respective sentneces"
-    #print "14. verifyParsedFile: Verify that the parsing was legitimate"
-    #print "15: buildClause: from the parse tree, build the verb and noun clauses"
-    #print "16: makeContextFile : this takes in the dic of Noun and Verbs (word:pos format) of two sentences and generate the input file that is used to get the sense of every word. it calls the extractSense method"
-    #print "17. extractSense: This method will run the ukb personalized page ranking to get the sense of every word"
-    #print "18. readWSD: read the sense file and update the wsd of every word of the sentence1 & sentence2 and compute the similarity"
-
-
     alignText(orgSimpleParas,orgNormalParas, pairedPara)
     
